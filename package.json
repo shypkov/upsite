@@ -19,7 +19,7 @@
   "homepage": "https://github.com/mfactory-lab/reference-pool#readme",
   "scripts": {
     "dev": "vite --port 3333 --open",
-    "build": "vite build --mode production",
+    "build": "vite build --m production",
     "serve": "vite preview",
     "lint": "eslint \"src/**/*.{vue,ts,js}\"",
     "lint:fix": "eslint \"src/**/*.{vue,ts,js}\" --fix",
