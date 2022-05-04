@@ -32,10 +32,9 @@
       <div class="row q-col-gutter-lg">
         <div class="col justify-between d-flex column">
           <div class="text-caption">
-            © Copyright 2021 xxx. All rights reserved.
+            2022 Under Development.
             <br />
-            Powered by
-            <a href="https://mfactory.tech/" target="_blank">mFactory GmbH</a>
+            Powered by mfactory frame
           </div>
         </div>
         <div class="col col-12 col-md-auto justify-between q-mt-auto d-flex column">

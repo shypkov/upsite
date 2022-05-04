@@ -43,10 +43,10 @@ export default defineConfig(({ mode }) => {
       entry: '/src/main.ts',
       inject: {
         data: {
-          title: 'xPool – Solana Stake Pool',
+          title: 'CryptoSapiens Staking',
           description:
-            'xPool is a Stake Pool on the Solana blockchain ensuring high rewards at low risk level, while also providing a DeFi token.',
-          keywords: 'Solana, DeFi, Stake pool, Proof of Stake, Blockchain, SOL',
+            'You can stake on various blockchains such as Solana',
+          keywords: 'Solana, Staking, Proof of Stake, Blockchain, SOL',
         },
       },
     }),
