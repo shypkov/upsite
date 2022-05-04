@@ -1,0 +1,1 @@
+import{_ as a}from"./index.34297de3.js";import{_ as e,$ as s,a0 as r,a6 as t,a7 as o}from"./vendor.fa2e8fc2.js";const f={},n=o(" About ");var c=a(f,[["render",function(a,o){const f=e("q-page");return s(),r(f,{class:"flex flex-center"},{default:t((()=>[n])),_:1})}]]);export{c as default};

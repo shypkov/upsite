@@ -1,0 +1,146 @@
+{
+  "index.html": {
+    "file": "assets/index.34297de3.js",
+    "src": "index.html",
+    "isEntry": true,
+    "imports": [
+      "_vendor.fa2e8fc2.js"
+    ],
+    "dynamicImports": [
+      "src/pages/404.vue",
+      "src/pages/500.vue",
+      "src/pages/about.vue",
+      "src/pages/home.vue",
+      "src/pages/impressum.vue",
+      "src/pages/pool-info.vue",
+      "src/pages/privacy.vue",
+      "src/pages/terms.vue",
+      "src/layouts/default.vue"
+    ],
+    "assets": [
+      "assets/sollet.76b54853.svg",
+      "assets/solflare.405a0431.svg",
+      "assets/phantom.837deb90.svg",
+      "assets/mathwallet.922f2931.svg",
+      "assets/Eva-Icons.f19a427f.woff2",
+      "assets/Eva-Icons.ba7db2a0.woff",
+      "assets/KFOkCnqEu92Fr1MmgVxIIzQ.a38ad0b6.woff",
+      "assets/KFOlCnqEu92Fr1MmSU5fBBc-.855a0697.woff",
+      "assets/KFOmCnqEu92Fr1Mu4mxM.ea50ac7f.woff",
+      "assets/KFOlCnqEu92Fr1MmEU9fBBc-.bd811625.woff",
+      "assets/KFOlCnqEu92Fr1MmWUlfBBc-.a01a632e.woff",
+      "assets/KFOlCnqEu92Fr1MmYUtfBBc-.d33864e0.woff",
+      "assets/arr-down.75109130.svg",
+      "assets/bg-sol-part.939467ee.svg"
+    ]
+  },
+  "_vendor.fa2e8fc2.js": {
+    "file": "assets/vendor.fa2e8fc2.js"
+  },
+  "src/pages/404.vue": {
+    "file": "assets/404.d5e3f99e.js",
+    "src": "src/pages/404.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_ErrorContainer.a16c4162.js",
+      "index.html",
+      "_vendor.fa2e8fc2.js"
+    ]
+  },
+  "_ErrorContainer.a16c4162.js": {
+    "file": "assets/ErrorContainer.a16c4162.js",
+    "imports": [
+      "index.html",
+      "_vendor.fa2e8fc2.js"
+    ]
+  },
+  "src/pages/500.vue": {
+    "file": "assets/500.5990bd44.js",
+    "src": "src/pages/500.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_ErrorContainer.a16c4162.js",
+      "index.html",
+      "_vendor.fa2e8fc2.js"
+    ]
+  },
+  "src/pages/about.vue": {
+    "file": "assets/about.994fba42.js",
+    "src": "src/pages/about.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_vendor.fa2e8fc2.js"
+    ]
+  },
+  "src/pages/home.vue": {
+    "file": "assets/home.b13305fe.js",
+    "src": "src/pages/home.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_vendor.fa2e8fc2.js",
+      "_Epoch.5cc7ee9c.js"
+    ],
+    "assets": [
+      "assets/sol-logo.4f589868.svg"
+    ]
+  },
+  "_Epoch.5cc7ee9c.js": {
+    "file": "assets/Epoch.5cc7ee9c.js",
+    "imports": [
+      "_vendor.fa2e8fc2.js",
+      "index.html"
+    ],
+    "assets": [
+      "assets/sol-gray-logo.1a43d38d.svg",
+      "assets/sol-logo.4f589868.svg"
+    ]
+  },
+  "src/pages/impressum.vue": {
+    "file": "assets/impressum.4866a2ea.js",
+    "src": "src/pages/impressum.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_vendor.fa2e8fc2.js"
+    ]
+  },
+  "src/pages/pool-info.vue": {
+    "file": "assets/pool-info.4efa8a8a.js",
+    "src": "src/pages/pool-info.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_vendor.fa2e8fc2.js"
+    ]
+  },
+  "src/pages/privacy.vue": {
+    "file": "assets/privacy.6e993844.js",
+    "src": "src/pages/privacy.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_vendor.fa2e8fc2.js"
+    ]
+  },
+  "src/pages/terms.vue": {
+    "file": "assets/terms.4b56a013.js",
+    "src": "src/pages/terms.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_vendor.fa2e8fc2.js"
+    ]
+  },
+  "src/layouts/default.vue": {
+    "file": "assets/default.ed93fdfe.js",
+    "src": "src/layouts/default.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_vendor.fa2e8fc2.js",
+      "_Epoch.5cc7ee9c.js"
+    ]
+  }
+}

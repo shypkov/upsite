@@ -1,0 +1,1 @@
+import{_ as a}from"./index.34297de3.js";import{_ as s,$ as e,a0 as r,a6 as t,a4 as n}from"./vendor.fa2e8fc2.js";const o={},d=n("div",{class:"container q-pb-xl"},[n("div",{class:"page-title"},"TERMS OF USE")],-1);var i=a(o,[["render",function(a,n){const o=s("q-page");return e(),r(o,null,{default:t((()=>[d])),_:1})}]]);export{i as default};
