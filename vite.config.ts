@@ -35,7 +35,7 @@ export default defineConfig(({ mode }) => {
   const isProd = mode === 'production';
 
   // TODO: fix
-  const base = isProd ? '/reference-pool/' : '/';
+  const base = '/';
 
   const plugins = [
     createHtmlPlugin({
