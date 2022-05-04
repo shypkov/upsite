@@ -54,17 +54,18 @@ export const ENDPOINTS: Endpoint[] = [
     stakeLimit: 150000,
   },
   {
-    name: 'testnet',
+    name: 'sollink',
     url: 'https://testnet.rpcpool.com/',
     stakePoolAddress: 'AeuEVJrnL5SwftWzchEfqMkKXPxLcZjrFtShdAZ7FwKy',
     stakeLimit: 100000,
   },
-  {
+/**   {
     name: 'devnet',
     url: 'https://devnet.rpcpool.com/', // clusterApiUrl('devnet'),
     stakePoolAddress: 'tppks4WDGssiMr14fmAoi1K8hS7YPxEiXVGdbAThyPB',
     stakeLimit: 100000,
   },
+*/
 ];
 
 if (isDev) {
