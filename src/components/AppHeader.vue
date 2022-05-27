@@ -57,11 +57,11 @@
   import ClusterSelector from '@/components/ClusterSelector.vue';
   import StackedAndLiquidity from '@/components/StackedAndLiquidity.vue';
   import ConnectWallet from '@/components/ConnectWallet.vue';
-  import Epoch from '@/components/Epoch.vue';
+  //import Epoch from '@/components/Epoch.vue';
 
   export default {
     components: {
-      Epoch,
+//      Epoch,
       AppLogo,
       ClusterSelector,
       StackedAndLiquidity,
