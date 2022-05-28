@@ -50,8 +50,8 @@ export const ENDPOINTS: Endpoint[] = [
   {
     name: 'mainnet-beta',
     url: 'https://mainnet.rpcpool.com/',
-    stakePoolAddress: 'Ez4heEN9SzxrjgYA7wBWK8FwxAuYXnmwALADGfpB32E6',
-    stakeLimit: 150000,
+    stakePoolAddress: 'CtMyWsrUtAwXWiGr9WjHT5fC3p3fgV8cyGpLTo2LJzG1',
+    stakeLimit: 100000,
   },
   {
     name: 'sollink',
@@ -59,13 +59,12 @@ export const ENDPOINTS: Endpoint[] = [
     stakePoolAddress: 'AeuEVJrnL5SwftWzchEfqMkKXPxLcZjrFtShdAZ7FwKy',
     stakeLimit: 100000,
   },
-/**   {
-    name: 'devnet',
-    url: 'https://devnet.rpcpool.com/', // clusterApiUrl('devnet'),
-    stakePoolAddress: 'tppks4WDGssiMr14fmAoi1K8hS7YPxEiXVGdbAThyPB',
+   {
+    name: 'mainnet-triton',
+    url: 'https://mercuria-fronten-1cd8.mainnet.rpcpool.com', // clusterApiUrl('devnet'),
+    stakePoolAddress: 'CtMyWsrUtAwXWiGr9WjHT5fC3p3fgV8cyGpLTo2LJzG1',
     stakeLimit: 100000,
   },
-*/
 ];
 
 if (isDev) {
@@ -76,7 +75,7 @@ if (isDev) {
   });
 }
 
-export const DEFAULT_ENDPOINT = ENDPOINTS[0] as Endpoint;
+export const DEFAULT_ENDPOINT = ENDPOINTS[1] as Endpoint;
 
 /**
  * The level of commitment desired when querying state
