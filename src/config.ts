@@ -50,7 +50,7 @@ export const ENDPOINTS: Endpoint[] = [
   {
     name: 'mainnet-beta',
     url: 'https://mainnet.rpcpool.com/',
-    stakePoolAddress: 'CtMyWsrUtAwXWiGr9WjHT5fC3p3fgV8cyGpLTo2LJzG1',
+    stakePoolAddress: 'Ez4heEN9SzxrjgYA7wBWK8FwxAuYXnmwALADGfpB32E6',
     stakeLimit: 150000,
   },
   {
