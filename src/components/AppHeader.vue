@@ -56,7 +56,7 @@
 <script lang="ts">
   import AppLogo from '@/components/AppLogo.vue';
   import ClusterSelector from '@/components/ClusterSelector.vue';
-  import StackedAndLiquidity from '@/components/StackedAndLiquidity.vue';
+//  import StackedAndLiquidity from '@/components/StackedAndLiquidity.vue';
   import ConnectWallet from '@/components/ConnectWallet.vue';
   import siteversion from '@/components/Siteversion.vue';
 //import Epoch from '@/components/Epoch.vue';
@@ -67,7 +67,7 @@
       siteversion,
       AppLogo,
       ClusterSelector,
-      StackedAndLiquidity,
+//      StackedAndLiquidity,
       ConnectWallet,
     },
   };

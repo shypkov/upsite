@@ -4,8 +4,9 @@
 <template>
     <div>
         <ul>
+        Cryptosapiens Staking    
+        <br />
         Version 1.0.1
-        Site is under development
         </ul>
     </div>
 </template>

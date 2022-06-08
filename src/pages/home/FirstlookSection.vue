@@ -40,6 +40,11 @@
             <epoch />
           </div>
         </div>
+          <div class="valpage-styled gt-sm">
+           <div class="container row justify-end items-center full-height relative-position">
+           <div class="q-mr-xl">VALIDATORS</div>
+          </div>
+        </div>
         <div class="row justify-between relative-position">
           <div class="col col-12 col-md-4 q-pr-md firstlook__wallet" v-if="connected">
             <wallet-balance />
