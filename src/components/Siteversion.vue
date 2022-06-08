@@ -4,7 +4,8 @@
 <template>
     <div>
         <ul>
-        <li>Version 1.0.1</li>
+        Version 1.0.1
+        Site is under development
         </ul>
     </div>
 </template>
