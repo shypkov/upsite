@@ -28,7 +28,7 @@
 
 <template>
   <div v-if="connectionLost && !forceHidden" class="connection-lost">
-    Solana network overloaded. Data currently unavailable.
+    Connection Lost. Data currently unavailable.
   </div>
 </template>
 

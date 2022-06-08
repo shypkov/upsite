@@ -34,11 +34,12 @@
           <app-logo />
         </router-link>
         <div class="xs-hide">
-          <stacked-and-liquidity />
+<!--          <stacked-and-liquidity />-->
+            <siteversion />
         </div>
         <q-space />
         <div class="app-header__epoch">
-          <epoch />
+<!--          <epoch /> -->
         </div>
         <q-space />
         <div class="text-right">
@@ -57,11 +58,13 @@
   import ClusterSelector from '@/components/ClusterSelector.vue';
   import StackedAndLiquidity from '@/components/StackedAndLiquidity.vue';
   import ConnectWallet from '@/components/ConnectWallet.vue';
-  //import Epoch from '@/components/Epoch.vue';
+  import siteversion from '@/components/Siteversion.vue';
+//import Epoch from '@/components/Epoch.vue';
 
   export default {
     components: {
 //      Epoch,
+      siteversion,
       AppLogo,
       ClusterSelector,
       StackedAndLiquidity,
