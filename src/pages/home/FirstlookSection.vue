@@ -27,6 +27,11 @@
   -->
 
 <template>
+<div class="valpage-styled gt-sm">
+  <div class="container row justify-end items-center full-height relative-position">
+  <div class="q-mr-xl">VALIDATORS</div>
+  </div>
+</div>
   <section class="firstlook-section">
     <div class="container">
       <div class="firstlook__body">
@@ -40,11 +45,6 @@
             <epoch />
           </div>
         </div>
-          <div class="valpage-styled gt-sm">
-           <div class="container row justify-end items-center full-height relative-position">
-           <div class="q-mr-xl">VALIDATORS</div>
-          </div>
-        </div>
         <div class="row justify-between relative-position">
           <div class="col col-12 col-md-4 q-pr-md firstlook__wallet" v-if="connected">
             <wallet-balance />
@@ -52,7 +52,6 @@
           <div v-else class="firstlook__placeholder">
             <img alt="" class="firstlook__placeholder__icon" src="@/assets/img/sol-logo.svg" />
           </div>
-
           <div class="col col-12 col-md-8 q-pl-md q-ml-auto firstlook__stake-box">
             <stake-box />
           </div>
@@ -67,15 +66,15 @@
   import { useWalletStore } from '@/store';
   import StakeBox from '@/components/Stake/StakeBox.vue';
   import WalletBalance from '@/components/WalletBalance.vue';
-  import StackedAndLiquidity from '@/components/StackedAndLiquidity.vue';
-  import Epoch from '@/components/Epoch.vue';
+//  import StackedAndLiquidity from '@/components/StackedAndLiquidity.vue';
+//  import Epoch from '@/components/Epoch.vue';
 
   export default {
     components: {
       WalletBalance,
-      Epoch,
+//      Epoch,
       StakeBox,
-      StackedAndLiquidity,
+//      StackedAndLiquidity,
     },
     setup() {
       const wallet = useWalletStore();
