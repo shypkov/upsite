@@ -34,7 +34,7 @@
           <div class="text-caption">
             2022 Under Development.
             <br />
-            Powered by mfactory frame
+            Powered by mfactory
           </div>
         </div>
         <div class="col col-12 col-md-auto justify-between q-mt-auto d-flex column">

@@ -29,21 +29,24 @@
 <template>
   <q-page>
     <connection-lost />
-    <firstlook-section />
+    <valstring />
+    <!--    <firstlook-section /> -->
     <faq-section />
   </q-page>
 </template>
 
 <script type="ts">
-  import ConnectionLost from '@/components/ConnectionLost.vue'
-    import FirstlookSection from './home/FirstlookSection.vue'
-    import FaqSection from './home/FaqSection.vue'
+        import ConnectionLost from '@/components/ConnectionLost.vue'
+      //  import FirstlookSection from './FirstlookSection.vue'
+        import FaqSection from './FaqSection.vue'
+        import Valstring from '@/components/Valstring.vue'
 
-    export default {
-      components: {
-        FaqSection,
-        FirstlookSection,
-        ConnectionLost,
-      },
-    }
+          export default {
+            components: {
+              Valstring,
+              FaqSection,
+  //          FirstlookSection,
+              ConnectionLost,
+            },
+          }
 </script>

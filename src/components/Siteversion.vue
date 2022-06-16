@@ -2,11 +2,11 @@
   -->
 
 <template>
-    <div>
-        <ul>
-        Cryptosapiens Staking    
-        <br />
-        Version 1.0.1
-        </ul>
-    </div>
+  <div>
+    <ul>
+      Cryptosapiens Staking
+      <br />
+      Version 1.1.0
+    </ul>
+  </div>
 </template>

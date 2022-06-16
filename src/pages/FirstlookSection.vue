@@ -27,11 +27,6 @@
   -->
 
 <template>
-<div class="valpage-styled gt-sm">
-  <div class="container row justify-end items-center full-height relative-position">
-  <div class="q-mr-xl">VALIDATORS</div>
-  </div>
-</div>
   <section class="firstlook-section">
     <div class="container">
       <div class="firstlook__body">
@@ -66,15 +61,15 @@
   import { useWalletStore } from '@/store';
   import StakeBox from '@/components/Stake/StakeBox.vue';
   import WalletBalance from '@/components/WalletBalance.vue';
-//  import StackedAndLiquidity from '@/components/StackedAndLiquidity.vue';
-//  import Epoch from '@/components/Epoch.vue';
+  //  import StackedAndLiquidity from '@/components/StackedAndLiquidity.vue';
+  //  import Epoch from '@/components/Epoch.vue';
 
   export default {
     components: {
       WalletBalance,
-//      Epoch,
+      //      Epoch,
       StakeBox,
-//      StackedAndLiquidity,
+      //      StackedAndLiquidity,
     },
     setup() {
       const wallet = useWalletStore();

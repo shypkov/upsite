@@ -34,15 +34,49 @@
           <app-logo />
         </router-link>
         <div class="xs-hide">
-<!--          <stacked-and-liquidity />-->
-            <siteversion />
+          <!--          <stacked-and-liquidity />-->
+          <siteversion />
         </div>
         <q-space />
         <div class="app-header__epoch">
-<!--          <epoch /> -->
+          <!--          <epoch /> -->
         </div>
         <q-space />
         <div class="text-right">
+          <div class="app-header__links">
+            <router-link
+              class="q-btn q-btn-item non-selectable no-outline q-btn--outline q-btn--rectangle q-btn--rounded q-btn--actionable q-focusable q-hoverable q-mb-sm app-header__links-btn"
+              to="/FaqSection"
+              exact
+            >
+              FAQ
+            </router-link>
+            <!--            <a
+              class="q-btn q-btn-item non-selectable no-outline q-btn--outline q-btn--rectangle q-btn--rounded q-btn--actionable q-focusable q-hoverable q-mb-sm app-header__links-btn"
+              tabindex="0"
+              href="/FaqSection"
+            >
+              <span class="q-focus-helper" tabindex="-1"> </span>
+              <span
+                class="q-btn__content text-center col items-center q-anchor--skip justify-center row"
+              >
+                FAQ
+              </span>
+            </a>
+            <a
+              class="q-btn q-btn-item non-selectable no-outline q-btn--outline q-btn--rectangle q-btn--rounded q-btn--actionable q-focusable q-hoverable q-mb-sm q-ml-sm app-header__links-btn"
+              tabindex="0"
+              href="/validators"
+            >
+              <span class="q-focus-helper" tabindex="-1"></span>
+              <span
+                class="q-btn__content text-center col items-center q-anchor--skip justify-center row"
+              >
+                Validators
+              </span>
+            </a>
+            -->
+          </div>
           <div class="q-gutter-sm justify-end flex wrap">
             <cluster-selector />
             <connect-wallet />
@@ -56,18 +90,20 @@
 <script lang="ts">
   import AppLogo from '@/components/AppLogo.vue';
   import ClusterSelector from '@/components/ClusterSelector.vue';
-//  import StackedAndLiquidity from '@/components/StackedAndLiquidity.vue';
+  //  import StackedAndLiquidity from '@/components/StackedAndLiquidity.vue';
   import ConnectWallet from '@/components/ConnectWallet.vue';
   import siteversion from '@/components/Siteversion.vue';
-//import Epoch from '@/components/Epoch.vue';
+  //import Epoch from '@/components/Epoch.vue';
+  import FaqSection from '@/pages/FaqSection.vue';
 
   export default {
     components: {
-//      Epoch,
+      //      Epoch,
+      FaqSection,
       siteversion,
       AppLogo,
       ClusterSelector,
-//      StackedAndLiquidity,
+      //      StackedAndLiquidity,
       ConnectWallet,
     },
   };
