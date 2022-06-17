@@ -74,7 +74,17 @@
     margin-left: -24px;
   }
 }
-.Siteversion{
+.Siteversion-title
+{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  align-items: center;
+  font-size: 16px;
+  padding: 9px;
+  color: #5c5c5c
+}
+
+.Siteversion-version
+{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   align-items: center;
   font-size: 12px;
