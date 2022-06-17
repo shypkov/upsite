@@ -1,8 +1,6 @@
-<!-- Here goes Legacy code
-  -->
-
+<!-- Here goes Legacy code) -->
 <template>
-  <div>
+  <div class="Siteversion">
     <ul>
       Cryptosapiens Staking
       <br />

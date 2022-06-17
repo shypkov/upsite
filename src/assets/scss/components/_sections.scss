@@ -222,3 +222,45 @@ body.body--dark {
     background-color: $dark;
   }
 }
+
+.social
+ {
+  text-align: right;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding-right: 7px;
+  margin-top: -15px;
+  margin-bottom: 0px;
+}
+
+.partners-title {
+  font-size: 20px;
+  font-weight: 100;
+  min-width: 20px;
+  text-align: center;
+  color: #fff;
+  display: block;
+  padding: 12px;
+  background-color: #455a64;
+  border-radius: 100px;
+  text-transform: uppercase;
+}
+
+.partners__logos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 35px;
+  padding: 50px 0;
+}
+
+.partners__logo {
+  height: 110px;
+  width: 20%;
+  border-radius: 12px;
+  box-shadow: 8px 8px 10px #0000004d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

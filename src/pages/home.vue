@@ -29,9 +29,9 @@
 <template>
   <q-page>
     <connection-lost />
-    <valstring />
     <!--    <firstlook-section /> -->
     <faq-section />
+    <partners />
   </q-page>
 </template>
 
@@ -40,13 +40,14 @@
       //  import FirstlookSection from './FirstlookSection.vue'
         import FaqSection from './FaqSection.vue'
         import Valstring from '@/components/Valstring.vue'
+        import Partners from '@/components/Partners.vue'
 
           export default {
             components: {
-              Valstring,
               FaqSection,
   //          FirstlookSection,
               ConnectionLost,
+              Partners,
             },
           }
 </script>

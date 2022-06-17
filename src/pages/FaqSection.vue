@@ -27,6 +27,7 @@
   -->
 
 <template>
+  <valstring />
   <section class="faq-section">
     <div class="container">
       <div class="faq-list">
@@ -38,10 +39,12 @@
               network, like bank rewards you with fixed percent to your deposit. It's secure, fault
               resistant, and fair.
             </p>
-            <p> How to stake? </p>
+            <p> How does it look like? </p>
             <p>
-              You are delegating your tokens to validators who process transactions and run the
-              network by connecting your wallet and chosing proper validator from the screen
+              You are the delegator and you delegate tokens you own to one of the validators who process transactions.
+              You dont send assets to validator, you just delegate. The assets is always on your wallet when you delegate.
+              Validators only make work(voting for right chain) in network and receive rewards like miners in BtC.
+              When work of validator is done (end of the epoch) validator achieves rewards for himself and delegators as well.
             </p>
           </div>
         </div>
@@ -49,9 +52,12 @@
           <div class="faq-item__title">What is a Stake Pool?</div>
           <div class="faq-item__body">
             <p>
-              Stake pool is a digital space to earn rewards with others. "Stake pools" gives easies
+              Stake pool is a digital space to earn rewards with other delegators. "Stake pools" gives easies
               way to stake trusted validators, and it's more easy than miner pools. Users deposit
-              SOL or other assets, and can always check and claim rewards.
+              SOL or other assets, and can always check and claim rewards. Stakepools could be liquid and solid.
+              Liquid stake pool allows you to use unlocked synthezied assets in equal quantity that you staked.
+              Liquid pools has it's risks when you have to back all the synthezied actives before unstake.
+              Cryptosapiens is a web3 provider which alows you easily select network with best validator and stake assets
             </p>
             <p>
               Read more at
@@ -126,3 +132,11 @@
         </div>
         </section>
 </template>
+
+<script type="ts">
+import Valstring from '@/components/Valstring.vue'
+          export default {
+            components: {
+              Valstring,
+            }}
+</script>

@@ -44,13 +44,26 @@
         <q-space />
         <div class="text-right">
           <div class="app-header__links">
+            <!--  <div class="app-header__links" v-if="connected">-->
             <router-link
               class="q-btn q-btn-item non-selectable no-outline q-btn--outline q-btn--rectangle q-btn--rounded q-btn--actionable q-focusable q-hoverable q-mb-sm app-header__links-btn"
               to="/FaqSection"
-              exact
             >
               FAQ
             </router-link>
+
+            <router-link
+              class="q-btn q-btn-item non-selectable no-outline q-btn--outline q-btn--rectangle q-btn--rounded q-btn--actionable q-focusable q-hoverable q-mb-sm q-ml-sm app-header__links-btn"
+              tabindex="0"
+              to="/FaqSection"
+            >
+              <span class="q-focus-helper" tabindex="-1"></span>
+              <span
+                class="q-btn__content text-center col items-center q-anchor--skip justify-center row"
+                >Validators
+              </span>
+            </router-link>
+
             <!--            <a
               class="q-btn q-btn-item non-selectable no-outline q-btn--outline q-btn--rectangle q-btn--rounded q-btn--actionable q-focusable q-hoverable q-mb-sm app-header__links-btn"
               tabindex="0"
@@ -92,7 +105,7 @@
   import ClusterSelector from '@/components/ClusterSelector.vue';
   //  import StackedAndLiquidity from '@/components/StackedAndLiquidity.vue';
   import ConnectWallet from '@/components/ConnectWallet.vue';
-  import siteversion from '@/components/Siteversion.vue';
+  import Siteversion from '@/components/Siteversion.vue';
   //import Epoch from '@/components/Epoch.vue';
   import FaqSection from '@/pages/FaqSection.vue';
 
@@ -100,7 +113,7 @@
     components: {
       //      Epoch,
       FaqSection,
-      siteversion,
+      Siteversion,
       AppLogo,
       ClusterSelector,
       //      StackedAndLiquidity,
