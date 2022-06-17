@@ -30,5 +30,7 @@
   <!--   <svg width="142" height="70" viewBox="0 0 142 70" fill="none" xmlns="http://www.w3.org/2000/svg">
   </svg>
 -->
-  <img src="@/assets/img/monk.svg" />
+  <div class="applogo">
+    <img src="@/assets/img/monk.svg" />
+  </div>
 </template>
