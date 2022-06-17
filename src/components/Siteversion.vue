@@ -4,7 +4,7 @@
     <ul>
       Cryptosapiens Staking
       <br />
-      Version 1.1.0
+      Version 1.1.2
     </ul>
   </div>
 </template>
