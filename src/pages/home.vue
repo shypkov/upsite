@@ -36,18 +36,18 @@
 </template>
 
 <script type="ts">
-        import ConnectionLost from '@/components/ConnectionLost.vue'
-      //  import FirstlookSection from './FirstlookSection.vue'
-        import FaqSection from './FaqSection.vue'
-        import Valstring from '@/components/Valstring.vue'
-        import Partners from '@/components/Partners.vue'
+          import ConnectionLost from '@/components/ConnectionLost.vue'
+        //  import FirstlookSection from './FirstlookSection.vue'
+          import FaqSection from './FaqSection.vue'
+  //        import subheader from '@/components/subheader.vue'
+          import Partners from '@/components/Partners.vue'
 
-          export default {
-            components: {
-              FaqSection,
-  //          FirstlookSection,
-              ConnectionLost,
-              Partners,
-            },
-          }
+            export default {
+              components: {
+                FaqSection,
+    //          FirstlookSection,
+                ConnectionLost,
+                Partners,
+              },
+            }
 </script>

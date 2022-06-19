@@ -40,9 +40,9 @@
   }
 
   &__epoch {
-    position: absolute;
+    position: relative;
     right: calc(50% - 53px);
-    bottom: -42px;
+    top: 90px;
     z-index: -1;
 
     @media (max-width: $breakpoint-sm) {
@@ -74,6 +74,7 @@
     margin-left: -24px;
   }
 }
+
 .Siteversion-title
 {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;

@@ -55,7 +55,7 @@
             <router-link
               class="q-btn q-btn-item non-selectable no-outline q-btn--outline q-btn--rectangle q-btn--rounded q-btn--actionable q-focusable q-hoverable q-mb-sm q-ml-sm app-header__links-btn"
               tabindex="0"
-              to="/FaqSection"
+              to="/ValSection"
             >
               <span class="q-focus-helper" tabindex="-1"></span>
               <span
@@ -63,32 +63,6 @@
                 >Validators
               </span>
             </router-link>
-
-            <!--            <a
-              class="q-btn q-btn-item non-selectable no-outline q-btn--outline q-btn--rectangle q-btn--rounded q-btn--actionable q-focusable q-hoverable q-mb-sm app-header__links-btn"
-              tabindex="0"
-              href="/FaqSection"
-            >
-              <span class="q-focus-helper" tabindex="-1"> </span>
-              <span
-                class="q-btn__content text-center col items-center q-anchor--skip justify-center row"
-              >
-                FAQ
-              </span>
-            </a>
-            <a
-              class="q-btn q-btn-item non-selectable no-outline q-btn--outline q-btn--rectangle q-btn--rounded q-btn--actionable q-focusable q-hoverable q-mb-sm q-ml-sm app-header__links-btn"
-              tabindex="0"
-              href="/validators"
-            >
-              <span class="q-focus-helper" tabindex="-1"></span>
-              <span
-                class="q-btn__content text-center col items-center q-anchor--skip justify-center row"
-              >
-                Validators
-              </span>
-            </a>
-            -->
           </div>
           <div class="q-gutter-sm justify-end flex wrap">
             <cluster-selector />

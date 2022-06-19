@@ -32,7 +32,7 @@
       show-value
       class="q-mt-xs q-ma-mdepoch__progress"
       :value="epochProgress"
-      size="106px"
+      size="100px"
       :thickness="0.2"
       color="natural-gray"
       track-color="primary"
@@ -87,13 +87,13 @@
 
       &-title {
         font-size: 10px;
-        line-height: 12px;
+        line-height: 15px;
         text-transform: uppercase;
         color: #5c5c5c;
       }
 
       &-value {
-        font-size: 18px;
+        font-size: 16px;
         line-height: 100%;
         color: #5a7683;
         font-weight: 500;

@@ -27,7 +27,7 @@
   -->
 
 <template>
-  <valstring />
+  <subheader />
   <section class="faq-section">
     <div class="container">
       <div class="faq-list">
@@ -52,7 +52,7 @@
           <div class="faq-item__title">What is a Stake Pool?</div>
           <div class="faq-item__body">
             <p>
-              Stake pool is a digital space to earn rewards with other delegators. "Stake pools" gives easies
+              Stake pool is a digital space to earn rewards with other delegators. "Stake pools" gives easiest
               way to stake trusted validators, and it's more easy than miner pools. Users deposit
               SOL or other assets, and can always check and claim rewards. Stakepools could be liquid and solid.
               Liquid stake pool allows you to use unlocked synthezied assets in equal quantity that you staked.
@@ -134,9 +134,9 @@
 </template>
 
 <script type="ts">
-import Valstring from '@/components/Valstring.vue'
+import subheader from '@/components/Subheader.vue'
           export default {
             components: {
-              Valstring,
+              subheader,
             }}
 </script>

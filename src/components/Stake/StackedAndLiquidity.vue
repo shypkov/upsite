@@ -38,7 +38,7 @@
   import { storeToRefs } from 'pinia';
   import { useStakePoolStore } from '@/store';
   import { lamportsToSol, priceFormatter } from '@/utils';
-  import TotalStacked from '@/components/TotalStacked.vue';
+  import TotalStacked from '@/components/Stake/TotalStacked.vue';
 
   export default {
     components: {

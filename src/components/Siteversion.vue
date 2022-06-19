@@ -6,6 +6,6 @@
   <div
     class="q-badge flex inline items-center no-wrap q-badge--single-line bg-accent text-text-white staking-header__beta"
   >
-    Ver 1.1.2</div
+    Ver 1.1.3</div
   >
 </template>

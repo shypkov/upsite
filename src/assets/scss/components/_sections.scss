@@ -52,17 +52,7 @@
   min-height: 400px;
 }
 
-.valpage-styled {
-  height: 60px;
-  background: #455A64;
-  color: #ffffff81;
-  font-size: 35px;
-  font-family: sans-serif;
-  font-weight: 600;
-  line-height: 44px;
-}
-
-.firstlook {
+.Valsection {
 
   &__wallet,
   &__stake-box {
@@ -107,6 +97,42 @@
       height: 115px;
     }
   }
+}
+
+.subheader-styled {
+  height: 60px;
+  background: #455A64;
+  color: #ffffff81;
+  font-size: 35px;
+  font-family: sans-serif;
+  font-weight: 600;
+  line-height: 44px;
+}
+
+.subheadernext-styled {
+  height: 60px;
+  background: #455A64;
+  color: #ffffff81;
+  font-size: 35px;
+  font-family: sans-serif;
+  font-weight: 600;
+  line-height: 44px;
+}
+
+.subheader-epoch {
+  display: flex;
+  align-items: center;
+//  background-color: #FFFFFF !important;
+  font-family: Helvetica;
+  font-size: 14px;
+  padding: 44px 0;
+  position: absolute;
+  right: calc(50% - 55px);
+  top: 84px;
+//  z-index: -1;
+@media (max-width: $breakpoint-sm) {
+  display: none;
+}
 }
 
 .faq-section {
@@ -263,4 +289,33 @@ body.body--dark {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.validators-and-stakes {
+  overflow-x: auto;
+  box-shadow: 6px 8px 10px 2px #0000004d;
+  padding-bottom:2rem;
+}
+.validators-and-stakes__no-validators{position:sticky;left:0;width:1110px;height:100px;display:flex;justify-content:center;align-items:center}@media (max-width: 1142px){.validators-and-stakes__no-validators{width:990px}}@media (max-width: 1023px){.validators-and-stakes__no-validators{width:569px}}@media (max-width: 599px){.validators-and-stakes__no-validators{width:calc(100vw - 30px)}}
+.validators-and-stakes__title{display:flex;align-items:center;justify-content:center;flex-wrap:wrap;margin-top:2rem}
+.validators-and-stakes__title__text{font-family:Montserrat;font-weight:700;font-size:22px;line-height:27px;text-transform:uppercase;color:#455a64}@media (min-width: 599px){.validators-and-stakes__title__text{margin-right:24px}}@media (max-width: 599px){.validators-and-stakes__title__text{margin-bottom:8px;width:100%;text-align:center}}
+.validators-and-stakes__list{width:1110px!important}
+.validators-and-stakes__list__head{background:#455A64;font-size:14px;line-height:24px;font-weight:500;height:46px;padding-top:16px;color:#fff;display:flex;justify-content:flex-end;align-items:center;width:1110px!important}
+
+
+.q-my-md {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.full-width {
+  width: 100%!important;
+  margin-left: 0!important;
+  margin-right: 0!important;
+}
+.q-card {
+  box-shadow: 0 1px 5px #0003, 0 2px 2px #00000024, 0 3px 1px -2px #0000001f;
+  border-radius: 12px;
+  vertical-align: top;
+  background: #fff;
+  position: relative;
 }
