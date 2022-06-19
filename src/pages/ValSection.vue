@@ -53,14 +53,14 @@
   <div class="col col-12 col-md-8 q-pl-md q-ml-auto">   </div> -->
   <section class="validators-and-stakes">
     <div class="bg-white">
-      <div class="container">
+      <div class="containernext">
         <div class="validators-and-stakes__title q-py-md">
           <div class="validators-and-stakes__title__text"> Select the trusted Validator </div>
           <div class="q-card q-my-md full-width validators-and-stakes__main">
             <div
               class="q-card__section q-card__section--vert validators-and-stakes__list__head validator-item row justify-between"
             >
-              <div class="validator-item__name column q-mr-sm justify-start"> VALIDATOR NAME </div>
+              <div class="validator-item__name column q-mr-sm justify-start"> VALIDATOR </div>
               <div class="validator-item__apy column q-mr-sm q-pl-sm justify-start"> REWARDS </div>
               <div class="validator-item__address column q-mr-sm justify-start"> ADDRESS </div>
               <div class="validator-item__stake column q-mr-sm justify-start"> STAKED TOTAL </div>
@@ -72,29 +72,47 @@
                     class="fit row wrap justify-start items-start content-start"
                     style="min-height: 100px"
                   >
-                    <div class="stake-accounts-container col-12"
-                      ><div class="full-width my-stake q-px-md q-pt-sm">
+                    <div class="stake-accounts-container col-12">
+                      <div class="q-px-md q-pt-sm">
                         <div class="q-py-none">
-                          <div class="validator-item row justify-between q-pb-md">
+                          <div class="validator-item row justify-start q-pb-md">
                             <div class="validator-item__logo column q-mr-md q-mt-sm justify-center">
                               <a
                                 href="https://www.validators.app/validators/Ez4heEN9SzxrjgYA7wBWK8FwxAuYXnmwALADGfpB32E6?network=mainnet"
                                 target="_blank"
                               >
-                                <img
-                                  src="https://s3.amazonaws.com/keybase_processed_uploads/bdb14a64778732545b81974407e0f005_360_360.jpg"
-                                  alt=""
-                                />
-                                <!--<div class="q-avatar shadow-1" style="font-size: 60px;">
-<div class="q-avatar__content row flex-center overflow-hidden">
-<div class="q-img q-img--menu" role="img">
-<div style="padding-bottom: 100%;">
-</div>
-<div class="q-img__container absolute-full">
-</div>
-<div class="q-img__content absolute-full q-anchor--skip"></div></div></div></div>
+                                <div class="q-avatar shadow-1" style="font-size: 60px">
+                                  <div class="q-avatar__content row flex-center overflow-hidden">
+                                    <div class="q-img q-img--menu" role="img">
+                                      <!--                                      <div class="q-img__container absolute-full">-->
+                                      <img
+                                        class="q-img__image q-img__image--with-transition q-img__image--loaded"
+                                        loading="lazy"
+                                        fetchpriority="auto"
+                                        aria-hidden="true"
+                                        draggable="false"
+                                        src="https://s3.amazonaws.com/keybase_processed_uploads/bdb14a64778732545b81974407e0f005_360_360.jpg"
+                                        alt="psixoz"
+                                      />
+                                      <!--<div style="padding-bottom: 100%;"></div>
+<img class="q-img__image q-img__image--with-transition q-img__image--loaded" loading="lazy" fetchpriority="auto" aria-hidden="true" draggable="false" src="https://keybase.io/cogent_crypto/picture" style="object-fit: cover; object-position: 50% 50%;">
 -->
+                                      <!-- </div>-->
+                                      <!--<div class="q-img__content absolute-full q-anchor--skip"></div>-->
+                                    </div>
+                                  </div>
+                                </div>
                               </a>
+                            </div>
+                            <div class="validator-item__name column q-mr-sm q-mt-sm justify-start">
+                              <div class="q-mt-xs"
+                                >Psixoz
+                                <!----></div
+                              >
+                              <div class="validator-item__name__details q-mt-xs"
+                                >The Bright Brotherhood of Blockchains
+                                <!----></div
+                              >
                             </div>
                           </div>
                         </div>
