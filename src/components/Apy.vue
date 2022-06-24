@@ -30,7 +30,7 @@
   <div class="apy" :class="{ 'apy--selected': selected }">
     APY
     <div class="apy__value">≈{{ apy }}</div>
-    <q-inner-loading :showing="apyLoading" />
+    <!--    <q-inner-loading :showing="apyLoading" />   -->
   </div>
 </template>
 

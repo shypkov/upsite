@@ -66,7 +66,6 @@
           </div>
           <div class="q-gutter-sm justify-end flex wrap">
             <cluster-selector />
-            <connect-wallet />
           </div>
         </div>
       </q-toolbar>

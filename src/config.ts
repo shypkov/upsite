@@ -34,7 +34,7 @@ const isProd = mode == 'production';
 const isDev = mode == 'development';
 
 export const DEFAULT_APY = 0.07;
-export const APY_VALIDATOR_ID = '8BYmtxKY1LuvjesaMi1nkXcj6ghuq48iiGKq2jNpnrNY';
+export const APY_VALIDATOR_ID = 'Ez4heEN9SzxrjgYA7wBWK8FwxAuYXnmwALADGfpB32E6';
 export const EPOCH_RELOAD_DURATION = 60000;
 export const WITHDRAW_SOL_ACTIVE = true;
 export const SOL_USD_RELOAD_DURATION = 300000;
@@ -48,7 +48,7 @@ export const STAKE_PROGRAM_ID = StakeProgram.programId;
 // Connection
 export const ENDPOINTS: Endpoint[] = [
   {
-    name: 'mainnet-beta',
+    name: 'network select',
     url: 'https://mainnet.rpcpool.com/',
     stakePoolAddress: 'CtMyWsrUtAwXWiGr9WjHT5fC3p3fgV8cyGpLTo2LJzG1',
     stakeLimit: 100000,
@@ -59,7 +59,7 @@ export const ENDPOINTS: Endpoint[] = [
     stakePoolAddress: 'AeuEVJrnL5SwftWzchEfqMkKXPxLcZjrFtShdAZ7FwKy',
     stakeLimit: 100000,
   },
-   {
+  {
     name: 'mainnet-triton',
     url: 'https://mercuria-fronten-1cd8.mainnet.rpcpool.com', // clusterApiUrl('devnet'),
     stakePoolAddress: 'CtMyWsrUtAwXWiGr9WjHT5fC3p3fgV8cyGpLTo2LJzG1',
