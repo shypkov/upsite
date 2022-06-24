@@ -221,7 +221,7 @@
   import subheadernext from '@/components/Subheadernext.vue';
   //  import StackedAndLiquidity from '@/components/StackedAndLiquidity.vue';
   import Epoch from '@/components/Epoch.vue';
-  import apy from '@/components/apy.vue';
+  import Apy from '@/components/Apy.vue';
   import ConnectWallet from '@/components/ConnectWallet.vue';
 
   export default {
@@ -229,7 +229,7 @@
       WalletBalance,
       Epoch,
       subheadernext,
-      apy,
+      Apy,
       ConnectWallet,
       //      StakeBox,
       //      StackedAndLiquidity,
