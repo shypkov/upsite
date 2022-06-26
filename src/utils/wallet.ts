@@ -114,18 +114,19 @@ export const WALLET_PROVIDERS: WalletInfo[] = [
       return new SolanaWalletAdapter((window as any).sollet, endpoint);
     },
   },
-  {
-    name: 'Solong',
-    url: 'https://solongwallet.com',
-    icon: solongIcon,
-    installUrl: 'https://chrome.google.com/webstore/detail/solong/memijejgibaodndkimcclfapfladdchj',
-    getAdapter(): WalletAdapter | undefined {
-      if ((window as any).solong === undefined) {
-        return;
-      }
-      return new SolongWalletAdapter();
-    },
-  },
+
+  //{
+  //  name: 'Solong',
+  //  url: 'https://solongwallet.com',
+  //  icon: solongIcon,
+  //  installUrl: 'https://chrome.google.com/webstore/detail/solong/memijejgibaodndkimcclfapfladdchj',
+  //  getAdapter(): WalletAdapter | undefined {
+  //    if ((window as any).solong === undefined) {
+  //      return;
+  //    }
+  //    return new SolongWalletAdapter();
+  //  },
+  //},
   // {
   //   name: 'Bonfida',
   //   url: 'https://bonfida.com/wallet',
@@ -173,21 +174,21 @@ export const WALLET_PROVIDERS: WalletInfo[] = [
   //     return new BloctoWalletAdapter();
   //   },
   // },
-  {
-    name: 'Slope',
-    url: 'https://slope.finance',
-    icon: 'data:image/svg+xml;base64,PHN2ZyBmaWxsPSJub25lIiBoZWlnaHQ9IjEyOCIgdmlld0JveD0iMCAwIDEyOCAxMjgiIHdpZHRoPSIxMjgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGNpcmNsZSBjeD0iNjQiIGN5PSI2NCIgZmlsbD0iIzZlNjZmYSIgcj0iNjQiLz48ZyBmaWxsPSIjZmZmIj48cGF0aCBkPSJtMzUuMTk2MyA1NC4zOTk4aDE5LjJ2MTkuMmgtMTkuMnoiLz48cGF0aCBkPSJtNzMuNTk3IDU0LjM5OTgtMTkuMiAxOS4ydi0xOS4ybDE5LjItMTkuMnoiIGZpbGwtb3BhY2l0eT0iLjQiLz48cGF0aCBkPSJtNzMuNTk3IDczLjU5OTgtMTkuMiAxOS4ydi0xOS4ybDE5LjItMTkuMnoiIGZpbGwtb3BhY2l0eT0iLjc1Ii8+PHBhdGggZD0ibTczLjYwNCA1NC4zOTk4aDE5LjJ2MTkuMmgtMTkuMnoiLz48cGF0aCBkPSJtNTQuMzk2OCAzNS4yIDE5LjItMTkuMnYxOS4ybC0xOS4yIDE5LjJoLTE5LjJ6IiBmaWxsLW9wYWNpdHk9Ii43NSIvPjxwYXRoIGQ9Im03My41OTE1IDkyLjgtMTkuMiAxOS4ydi0xOS4ybDE5LjItMTkuMmgxOS4yeiIgZmlsbC1vcGFjaXR5PSIuNCIvPjwvZz48L3N2Zz4=',
-    // @ts-ignore
-    getAdapter() {
-      if ((window as any).Slope === undefined) {
-        return;
-      }
-      return new SlopeWalletAdapter();
-    },
-  },
-  {
-    name: 'MathWallet',
-    url: 'https://mathwallet.org',
-    icon: mathwalletIcon,
-  },
+  //  {
+  //    name: 'Slope',
+  //    url: 'https://slope.finance',
+  //    icon: 'data:image/svg+xml;base64,PHN2ZyBmaWxsPSJub25lIiBoZWlnaHQ9IjEyOCIgdmlld0JveD0iMCAwIDEyOCAxMjgiIHdpZHRoPSIxMjgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGNpcmNsZSBjeD0iNjQiIGN5PSI2NCIgZmlsbD0iIzZlNjZmYSIgcj0iNjQiLz48ZyBmaWxsPSIjZmZmIj48cGF0aCBkPSJtMzUuMTk2MyA1NC4zOTk4aDE5LjJ2MTkuMmgtMTkuMnoiLz48cGF0aCBkPSJtNzMuNTk3IDU0LjM5OTgtMTkuMiAxOS4ydi0xOS4ybDE5LjItMTkuMnoiIGZpbGwtb3BhY2l0eT0iLjQiLz48cGF0aCBkPSJtNzMuNTk3IDczLjU5OTgtMTkuMiAxOS4ydi0xOS4ybDE5LjItMTkuMnoiIGZpbGwtb3BhY2l0eT0iLjc1Ii8+PHBhdGggZD0ibTczLjYwNCA1NC4zOTk4aDE5LjJ2MTkuMmgtMTkuMnoiLz48cGF0aCBkPSJtNTQuMzk2OCAzNS4yIDE5LjItMTkuMnYxOS4ybC0xOS4yIDE5LjJoLTE5LjJ6IiBmaWxsLW9wYWNpdHk9Ii43NSIvPjxwYXRoIGQ9Im03My41OTE1IDkyLjgtMTkuMiAxOS4ydi0xOS4ybDE5LjItMTkuMmgxOS4yeiIgZmlsbC1vcGFjaXR5PSIuNCIvPjwvZz48L3N2Zz4=',
+  // @ts-ignore
+  //    getAdapter() {
+  //      if ((window as any).Slope === undefined) {
+  //        return;
+  //      }
+  //      return new SlopeWalletAdapter();
+  //    },
+  //  },
+  //  {
+  //    name: 'MathWallet',
+  //    url: 'https://mathwallet.org',
+  //    icon: mathwalletIcon,
+  //  },
 ];

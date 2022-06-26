@@ -30,7 +30,7 @@
   <div class="apy" :class="{ 'apy--selected': selected }">
     APY
     <div class="apy__value">≈{{ apy }}</div>
-    <!--    <q-inner-loading :showing="apyLoading" />   -->
+    <q-inner-loading :showing="apyLoading" />
   </div>
 </template>
 
@@ -57,7 +57,7 @@
   };
 </script>
 
-<style scoped lang="scss">
+<!--<style scoped lang="scss">
   .apy {
     position: absolute;
     color: $gray;
@@ -97,4 +97,4 @@
       background: none;
     }
   }
-</style>
+</style>-->

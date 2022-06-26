@@ -71,9 +71,10 @@
       margin: 0 auto 45px;
     }
  }
+ 
  .apy {
   color: #000 !important;
-  margin-bottom: 5px;
+//  margin-bottom: 5px;
 
   .q-inner-loading {
     background: none;
@@ -356,18 +357,26 @@ body.body--dark {
 
 .validator-item {
   flex-wrap: nowrap;
-  width: 1050px;
+  width: 1080px;
+}
+
+.validator-item__icon {
+  width: 50px;
+  border-right: 1px solid #9EB3BD;
+  padding-right: 16px;
 }
 
 .validator-item__logo {
   width: 50px;
+//  border-right: 1px solid #9EB3BD;
+  padding-right: 16px;  
 //  margin-right: 10px;
 //  padding-left: -25px;
 }
 
 .validator-item__name {
-  font-weight: 500;
-  width: 260px;
+//  font-weight: 500;
+  width: 200px;
   font-size: 15px;
   overflow: hidden;
 //  white-space: wrap;
@@ -388,9 +397,8 @@ body.body--dark {
   white-space: break-spaces;
 }
 
-
 .validator-item__apy {
-  width: 160px;
+  width: 130px;
   font-weight: 500;
   align-items: flex;
   border-right: 1px solid #9EB3BD;
@@ -408,23 +416,38 @@ body.body--dark {
 }
 
 .validator-item__address {
-  width: 200px;
+  width: 190px;
   border-right: 1px solid #9EB3BD;
 //  padding-left: 8px;
 //  padding-right: 10px;
 }
 
 .validator-item__stake {
-  width: 200px;
+  width: 250px;
 //  padding-left: 8px;
 //  padding-right: 16px;
   border-right: 1px solid #9EB3BD;
 }
+.validator-item__totalstake{
+  width: 75px;
+  font-size: 12px;
+}
+
+.validator-item__stakebtn{
+  width: 75px;
+//  margin-left: auto;
+}
 
 .validator-item__btns {
-  width: 170px;
+//  width: 100px;
   margin-left: auto;
 }
+
+.q-mb-sm {
+  margin-top: 8px;
+  font-size: 11px;
+}
+
 
 .q-mr-md {
   margin-right: 10px;
@@ -516,13 +539,13 @@ body.body--dark {
 }
 
 .q-avatar {
-  position: relative;
+//  position: relative;
 //  vertical-align: middle;
-  display: inline-block;
+//  display: inline-block;
   border-radius: 50%;
-  font-size: 18px;
-  height: 1em;
-  width: 1em;
+  font-size: 50px;
+//  height: 1em;
+//  width: 1em;
 }
 
 .q-avatar__content {
@@ -530,6 +553,7 @@ body.body--dark {
   font-size: .5em;
   line-height: .5em;
 }
+
 .q-img {
   position: relative;
   width: 100%;

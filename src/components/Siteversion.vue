@@ -3,9 +3,5 @@
   <div class="Siteversion-title">
     <span> Cryptosapiens Staking </span>
   </div>
-  <div
-    class="q-badge flex inline items-center no-wrap q-badge--single-line bg-accent text-text-white staking-header__beta"
-  >
-    Ver 1.1.3</div
-  >
+  <div class="q-badge flex inline items-center no-wrap bg-accent"> Ver 1.1.4</div>
 </template>
