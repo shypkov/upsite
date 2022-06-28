@@ -31,6 +31,7 @@
             href="https://jpool.one/"
             title="Jpool"
             style="background: rgb(69, 90, 100)"
+            target="_blank"
           >
             <!--          
             <img src="@/assets/img/jpool-trans.svg" alt="jpool" />-->
@@ -40,8 +41,8 @@
                 d="M249.824 387.836C233.633 387.836 218.696 384.87 205.013 378.939C191.558 372.78 180.498 364.111 171.833 352.932L202.619 315.976C215.617 333.541 230.44 342.324 247.088 342.324C269.664 342.324 280.953 329.093 280.953 302.63V188.68H196.804V144.195H336.026V299.55C336.026 328.979 328.728 351.107 314.133 365.936C299.538 380.536 278.102 387.836 249.824 387.836Z"
                 fill="#2E2E2F"
               />
-              <span class="partners-title q-hoverable"><b>Jpool</b></span>
             </svg>
+            <div class="partners-title q-hoverable"><b>Jpool</b></div>
           </a>
         </div>
       </div>
