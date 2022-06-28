@@ -48,13 +48,13 @@ export const STAKE_PROGRAM_ID = StakeProgram.programId;
 // Connection
 export const ENDPOINTS: Endpoint[] = [
   {
-    name: 'network select',
+    name: 'mainnet',
     url: 'https://mainnet.rpcpool.com/',
     stakePoolAddress: 'CtMyWsrUtAwXWiGr9WjHT5fC3p3fgV8cyGpLTo2LJzG1',
     stakeLimit: 100000,
   },
   {
-    name: 'sollink',
+    name: 'testnet',
     url: 'https://testnet.rpcpool.com/',
     stakePoolAddress: 'AeuEVJrnL5SwftWzchEfqMkKXPxLcZjrFtShdAZ7FwKy',
     stakeLimit: 100000,

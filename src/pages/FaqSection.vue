@@ -27,7 +27,7 @@
   -->
 
 <template>
-  <subheader />
+  <faqsubheader />
   <section class="faq-section">
     <div class="container">
       <div class="faq-list">
@@ -134,9 +134,9 @@
 </template>
 
 <script type="ts">
-import subheader from '@/components/Subheader.vue'
+import Faqsubheader from '@/components/Faqsubheader.vue'
           export default {
             components: {
-              subheader,
+              Faqsubheader,
             }}
 </script>

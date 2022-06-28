@@ -35,6 +35,7 @@
     color="white"
     text-color="black"
     rounded
+    outline
   >
     <q-list>
       <q-item v-for="item in items" :key="item.name" clickable @click="select(item)">

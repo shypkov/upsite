@@ -277,13 +277,14 @@ body.body--dark {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 35px;
-  padding: 50px 0;
+  align-items: center;
+  gap: 45px;
+  padding: 40px;
 }
 
 .partners__logo {
-  height: 110px;
-  width: 20%;
+  height: 100px;
+  min-width: 170px;
   border-radius: 12px;
   box-shadow: 8px 8px 10px #0000004d;
   display: flex;
