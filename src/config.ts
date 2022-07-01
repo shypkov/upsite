@@ -40,7 +40,7 @@ export const WITHDRAW_SOL_ACTIVE = true;
 export const SOL_USD_RELOAD_DURATION = 300000;
 export const POOL_CONNECTION_DELAY = 30000;
 
-export const GTAG_ID = isProd ? 'G-XXX' : null;
+export const GTAG_ID = isProd ? 'G-CS969' : null;
 
 // Stake
 export const STAKE_PROGRAM_ID = StakeProgram.programId;
@@ -86,3 +86,18 @@ export const DEFAULT_ENDPOINT = ENDPOINTS[1] as Endpoint;
  * </pre>
  */
 export const DEFAULT_COMMITMENT: Commitment = 'confirmed';
+
+/// new network and validators description for network selector
+/**
+export const NETWORKS: network[] = [
+  {
+    name: 'Solana',
+    //    icon: 'https://mainnet.rpcpool.com/',
+  }
+]; 
+*/
+export const SOL_VAL_LIST = 'Ez4heEN9SzxrjgYA7wBWK8FwxAuYXnmwALADGfpB32E6';
+
+export const DOCK_VAL_LIST = '3EEtxzbZH4yQBzjUHTXTVvD88V6re2wWW56K6Ys8AK7sufU2';
+
+export const NYM_VAL_LIST = '7DaVaW2E6y8kCNtUrBhx6QGagQ8JDW8wGadfBiiGksQB';

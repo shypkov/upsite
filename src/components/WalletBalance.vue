@@ -54,7 +54,7 @@
           <q-item-section side>
             <q-item-label>
               <token-svg />
-              <span>xSOL</span>
+              <span>SOL</span>
             </q-item-label>
           </q-item-section>
         </q-item>

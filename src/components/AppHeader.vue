@@ -66,6 +66,7 @@
           </div>
           <div class="q-gutter-sm justify-end flex wrap">
             <cluster-selector />
+            <switchnetwork />
           </div>
         </div>
       </q-toolbar>
@@ -77,10 +78,11 @@
   import AppLogo from '@/components/AppLogo.vue';
   import ClusterSelector from '@/components/ClusterSelector.vue';
   //  import StackedAndLiquidity from '@/components/StackedAndLiquidity.vue';
-  import ConnectWallet from '@/components/ConnectWallet.vue';
+  //  import ConnectWallet from '@/components/ConnectWallet.vue';
   import Siteversion from '@/components/Siteversion.vue';
   //import Epoch from '@/components/Epoch.vue';
   import FaqSection from '@/pages/FaqSection.vue';
+  import Switchnetwork from '@/components/Switchnetwork.vue';
 
   export default {
     components: {
@@ -89,8 +91,8 @@
       Siteversion,
       AppLogo,
       ClusterSelector,
-      //      StackedAndLiquidity,
-      ConnectWallet,
+      Switchnetwork,
+      // ConnectWallet,
     },
   };
 </script>

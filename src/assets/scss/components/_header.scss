@@ -70,8 +70,21 @@
     z-index: 1;
   }
 
+  &__network-btn {
+    min-height: auto;
+    padding-top: 8px;
+    font-size: 14px;
+    height: 38px;
+    z-index: 1;
+  }
+
   &__logo {
     margin-left: -24px;
+  }
+  &__network{
+  min-width: 150px;
+  font-size: 18px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
 }
 
