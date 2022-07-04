@@ -8,13 +8,13 @@
     text-color="black"
     rounded
     outlined
+    emit-value
   />
 </template>
 
 <script lang="ts">
   //  import { NETWORKS } from '@/config';
-
-  import { ref } from 'vue';
+  import { ref, watch } from 'vue';
 
   export default {
     setup() {
@@ -22,6 +22,10 @@
         model: ref(null),
         networks: ['Solana', 'Dock', 'NYM'],
       };
+    },
+
+    watch() {
+      console.log(networks);
     },
   };
 </script>
